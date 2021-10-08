@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Education</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #fff;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="<?php echo site_url('Hello/index');?>">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('Hello/about_me');?>">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('Hello/education');?>">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo site_url('Hello/active');?>">Activity</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 style="color:Coral">Education</h2>
+      <p style="color:LightSalmon">Studying in the field of technology</p>
+      <div>
+        <img src="<?= base_url();?>/images/rmutl_logo.png" width="100%" />
+      </div><br>
+      <h3>Rajamangala University of Technology Lanna</h3>
+      <br><br>
+      <ul class="nav nav-pills flex-column">
+      <li class="nav-item">
+          <a class="nav-link active" href="<?php echo site_url('Hello/about_me');?>">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('Hello/education');?>">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('Hello/active');?>">Activity</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>มัธยมศึกษาตอนปลาย</h2>
+      <div>
+      <h2><a href="http://www.sappha.ac.th/">โรงเรียนสรรพวิทยาคม</a></h2>
+      </div>
+      <div>
+            <img src="<?= base_url();?>/images/maxresdefault.jpg" width="150%" />
+        </div><br><br>
+      <h3>อุดมศึกษา</h3>
+      <div>
+      <h2><a href="https://tak.rmutl.ac.th/">มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา ตาก</a></h2>
+      </div>
+      <div>
+            <img src="<?= base_url();?>/images/maxresdefault2.jpg" width="150%" />
+        </div>
+      <br><br>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+    <p align="center">&copy; My Website, 2021</p>
+</foot>
+</div>
+
+</body>
+</html>
